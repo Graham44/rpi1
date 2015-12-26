@@ -1,4 +1,6 @@
 * Sunrise / sun set should trigger the start of this.
+http://api.usno.navy.mil/rstt/oneday?date=today&loc=Sugar%20Hill,%20GA
+
 * It should also calcualte the length of the overnight period required.
 
 * Capture command:
