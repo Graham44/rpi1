@@ -1,0 +1,8 @@
+* Sunrise / sun set should trigger the start of this.
+* It should also calcualte the length of the overnight period required.
+
+* Capture command:
+echo Capture night stars
+sudo raspistill -w 1920 -h 1080 -t 43200000 -tl 10000 -o /var/www/html/frame%05d
+.jpg
+* This will do 12 hours (43200000)
